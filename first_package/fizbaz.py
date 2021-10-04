@@ -1,5 +1,15 @@
 a=input("enter the first num:")
-b=input("enter the first num:")
+b=input("enter the SOCOND num:")
+bool=True
+while bool==True:
+    if a=='':
+        a = input("enter the first num:")
+    else:
+        if b=='':
+                    b = input("enter the SOCOND num:")
+        else:
+            if a!='' and b!='':
+                bool=False
 a=int(a)
 b=int(b)
 if a<=b:

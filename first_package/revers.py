@@ -1,3 +1,4 @@
+def example():
 Bnum=int(input("enter a number which include 3 digits: "))
 a=Bnum%10
 b=(Bnum%100-a)

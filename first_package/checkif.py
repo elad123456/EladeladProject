@@ -1,5 +1,5 @@
-grade=100-1000
-if 0>grade or grade>100:
-    print("invalied")
+num=int(input("enter a number: "))
+if num%2==0:
+    print("Double")
 else:
-    print("OK")
+    print("odd number")
